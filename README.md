@@ -4,7 +4,7 @@ This *[nghttpx](https://github.com/nghttp2/nghttp2/) Docker Image* is based on *
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`1.45.1-r0`, `latest`](https://github.com/dmachard/nghttpx-docker/tree/main/1.45.1)
+- [`1.45.1-r1`, `latest`](https://github.com/dmachard/nghttpx-docker/tree/main/1.45.1)
 
 ## How to use this image
 
