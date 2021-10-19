@@ -1,6 +1,6 @@
 # Nghttpx Docker Image
 
-This *[Nghttpx](https://github.com/nghttp2/nghttp2/) Docker Image* is based on **Debian**.
+This *[nghttpx](https://github.com/nghttp2/nghttp2/) Docker Image* is based on **Debian**.
 
 ## Supported tags and respective `Dockerfile` links
 
