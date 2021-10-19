@@ -26,7 +26,7 @@ RUN apt-get update && \
     make && \
     make install
 
-FROM debian:11
+FROM debian:11.1-slim
 
 COPY --from=build /opt/nghttp2 /opt/nghttp2
 WORKDIR /opt/nghttp2
