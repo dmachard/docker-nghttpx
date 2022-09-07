@@ -2,7 +2,7 @@ FROM debian:11 as build
 
 ENV NAME=nghttp2 \
     VERSION=1.49.0 \
-    DOWNLOAD_URL=https://github.com/nghttp2/nghttp2/releases/download/v1.48.0/nghttp2-1.49.0.tar.gz
+    DOWNLOAD_URL=https://github.com/nghttp2/nghttp2/releases/download/v1.49.0/nghttp2-1.49.0.tar.gz
 
 RUN apt-get update && \
     apt-get install -y curl build-essential \
