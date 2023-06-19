@@ -1,4 +1,4 @@
-FROM debian:11 as build
+FROM debian:12 as build
 
 ENV NAME=nghttp2 \
     VERSION=1.46.0 \
@@ -26,7 +26,7 @@ RUN apt-get update && \
     make && \
     make install
 
-FROM debian:11.1-slim
+FROM debian:12.0-slim
 
 COPY --from=build /opt/nghttp2 /opt/nghttp2
 WORKDIR /opt/nghttp2
